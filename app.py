@@ -3,7 +3,8 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('/content/housing_price_model.pkl')
+model = joblib.load('housing_price_model.pkl')
+
 
 # Streamlit app title
 st.title('Housing Price Index Predictor')
